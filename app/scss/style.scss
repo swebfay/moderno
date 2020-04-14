@@ -213,6 +213,7 @@
         font-weight: 500;
         display: flex;
         align-items: center;
+        max-width: 245px;
         .avatar {
             width: 30px;
             height: 30px;
@@ -227,6 +228,9 @@
             font-size: 14px;
             font-weight: 500;
         }
+    }
+    &-star {
+        color: $bg;
     }
 }
 
@@ -250,3 +254,12 @@
 }
 
 // END PRODUCTS
+// START PRODUCTS-SLIDER
+
+.product-slider {
+    display: inline;
+    padding: 110px 0 120px;
+}
+
+
+// END PRODUCTS-SLIDER
